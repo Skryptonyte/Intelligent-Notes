@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+   <item android:title="Local Folders" android:id="@+id/folderitemwrap">
+       <menu android:id="@+id/foldermenu">
+           <group android:checkableBehavior="single"
+               android:id="@+id/folderlist"
+               >
+               <item
+                   android:id="@+id/nav_home"
+                   android:orderInCategory="1000"
+                   android:icon="@drawable/homebutton"
+                   android:title="@string/menu_home" />
+           </group>
+       </menu>
+   </item>
+
+    <item android:title="Configure">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/addnewfolder"
+                    android:orderInCategory="1001"
+                    android:icon="@drawable/baseline_create_new_folder_24"
+                    android:title="Add folder" />
+                <item
+                    android:id="@+id/deletefolder"
+                    android:icon="@drawable/baseline_folder_delete_24"
+                    android:orderInCategory="1001"
+                    android:title="Delete folder" />
+            </group>
+        </menu>
+    </item>
+</menu>
