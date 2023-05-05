@@ -1,6 +1,7 @@
 # Intelligent-Notes
 A note taking android app augmented with some ML features.
 
+Developed in a little over two for an android lab project submission
 # Features
 
 * General notes management
